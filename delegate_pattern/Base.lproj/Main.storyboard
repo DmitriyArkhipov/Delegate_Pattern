@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeF-qf-7nn">
+                                <rect key="frame" x="98" y="286" width="218" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="FaR-2C-gl1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gj-wb-uoQ">
+                                <rect key="frame" x="100" y="387" width="214" height="50"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3C1-Lh-d2K"/>
+                                </constraints>
+                                <state key="normal" title="Print"/>
+                                <connections>
+                                    <action selector="printAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOi-il-Ree"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0gj-wb-uoQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="8tf-7I-8NU"/>
+                            <constraint firstItem="QeF-qf-7nn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="98" id="DST-W7-cCZ"/>
+                            <constraint firstItem="0gj-wb-uoQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EDd-pP-qp4"/>
+                            <constraint firstItem="QeF-qf-7nn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="266" id="MwF-pB-tmK"/>
+                            <constraint firstAttribute="trailing" secondItem="0gj-wb-uoQ" secondAttribute="trailing" constant="100" id="Op6-50-QIe"/>
+                            <constraint firstItem="QeF-qf-7nn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PCV-Ve-UcF"/>
+                            <constraint firstAttribute="trailing" secondItem="QeF-qf-7nn" secondAttribute="trailing" constant="98" id="QGf-Pi-Cg1"/>
+                            <constraint firstItem="0gj-wb-uoQ" firstAttribute="top" secondItem="QeF-qf-7nn" secondAttribute="bottom" multiplier="1.05" constant="1" id="i4z-XJ-7dq"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="testLabel" destination="QeF-qf-7nn" id="s6M-p6-3z1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="441"/>
+        </scene>
+    </scenes>
+</document>
