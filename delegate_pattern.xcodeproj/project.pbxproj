@@ -14,6 +14,7 @@
 		81D09CBA1D5C9C8600DF959D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D09CB91D5C9C8600DF959D /* Assets.xcassets */; };
 		81D09CBD1D5C9C8600DF959D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D09CBB1D5C9C8600DF959D /* LaunchScreen.storyboard */; };
 		81D09CC71D5C9CC300DF959D /* DelegatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D09CC61D5C9CC300DF959D /* DelegatePattern.m */; };
+		81FCF8221D8B101B00A808BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 81FCF8211D8B101B00A808BB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		81D09CBE1D5C9C8600DF959D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D09CC51D5C9CB000DF959D /* DelegatePattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegatePattern.h; sourceTree = "<group>"; };
 		81D09CC61D5C9CC300DF959D /* DelegatePattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegatePattern.m; sourceTree = "<group>"; };
+		81FCF8211D8B101B00A808BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		81D09CA11D5C9C8600DF959D = {
 			isa = PBXGroup;
 			children = (
+				81FCF8211D8B101B00A808BB /* LICENSE */,
 				81D09CAC1D5C9C8600DF959D /* delegate_pattern */,
 				81D09CAB1D5C9C8600DF959D /* Products */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				81D09CBD1D5C9C8600DF959D /* LaunchScreen.storyboard in Resources */,
 				81D09CBA1D5C9C8600DF959D /* Assets.xcassets in Resources */,
+				81FCF8221D8B101B00A808BB /* LICENSE in Resources */,
 				81D09CB81D5C9C8600DF959D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 				81D09CC31D5C9C8600DF959D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
